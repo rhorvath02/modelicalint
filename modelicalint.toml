@@ -1,0 +1,11 @@
+[rules]
+ML201 = true   # no inline annotations
+ML301 = true   # section ordering
+ML401 = true   # parameters require Dialog
+ML501 = true   # connect() inside equation
+
+[legacy]
+ignore = [
+  "VehicleDynamics/Utilities/**",
+  "VehicleDynamics/TestUtilities/**"
+]
